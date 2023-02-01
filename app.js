@@ -12,40 +12,40 @@ const btn = document.querySelector('.btn')
 //First Score
 let num = 0
 function incOne() {
-    let firstOne = num += 1
-    firstScore.innerText = firstOne
+    num ++
+    firstScore.innerText = num
 }
 firstOne.addEventListener('click', incOne)
 
 function incTwo() {
-    let firstTwo = num += 2
-    firstScore.innerText = firstTwo
+    num += 2
+    firstScore.innerText = num
 }
 firstTwo.addEventListener('click', incTwo)
 
 function incThree() {
-    let firstThree = num += 3
-    firstScore.innerText = firstThree
+    num += 3
+    firstScore.innerText = num
 }
 firstThree.addEventListener('click', incThree)
 
 //Second Score 
 let num1 = 0
 function decOne() {
-    let secOne = num += 1
-    secScore.innerText = secOne
+    num1 ++
+    secScore.innerText = num1
 }
 secOne.addEventListener('click', decOne)
 
 function decTwo() {
-    let secTwo = num += 2
-    secScore.innerText = secTwo
+    num1 += 2
+    secScore.innerText = num1
 }
 secTwo.addEventListener('click', decTwo)
 
 function decThree() {
-    let secThree = num += 3
-    secScore.innerText = secThree
+    num1 += 3
+    secScore.innerText = num1
 }
 secThree.addEventListener('click', decThree)
 
